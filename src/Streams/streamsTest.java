@@ -27,6 +27,6 @@ public class streamsTest {
 
         //res.forEach(n -> System.out.println(n));
 
-        
+
     }
 }
