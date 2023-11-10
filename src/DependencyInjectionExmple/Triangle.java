@@ -1,4 +1,4 @@
-package DependencyInjection;
+package DependencyInjectionExmple;
 
 public class Triangle extends Shape{
 

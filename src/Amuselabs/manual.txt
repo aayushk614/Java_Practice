@@ -1,0 +1,2 @@
+1. Save the log file in txt format
+2. Compile and the Run ReadLogs.java file

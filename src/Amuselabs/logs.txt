@@ -1,0 +1,41 @@
+2023-10-12 09:30:15 INFO - User [Alice] (IP: 192.168.1.101) viewed product [Smartphone: Model X]
+
+2023-10-12 09:32:45 INFO - User [Bob] (IP: 192.168.1.102) viewed product [Laptop: Model A]
+
+2023-10-12 09:35:20 INFO - User [Charlie] (IP: 192.168.1.103) viewed product [Smartwatch: Model Z]
+
+2023-10-12 09:40:10 INFO - User [Alice] (IP: 192.168.1.101) added product [Smartphone: Model X] to the cart
+
+2023-10-12 09:42:30 INFO - User [Bob] (IP: 192.168.1.102) viewed product [Tablet: Model B]
+
+2023-10-12 09:45:55 INFO - User [Charlie] (IP: 192.168.1.103) added product [Smartwatch: Model Z] to the cart
+
+2023-10-12 09:50:25 INFO - User [Alice] (IP: 192.168.1.101) initiated checkout
+
+2023-10-12 09:52:40 INFO - User [Bob] (IP: 192.168.1.102) added product [Laptop: Model A] to the cart
+
+2023-10-12 09:55:15 INFO - User [Charlie] (IP: 192.168.1.103) initiated checkout
+
+2023-10-12 10:00:00 INFO - User [Alice] (IP: 192.168.1.101) purchased product [Smartphone: Model X]
+
+2023-10-12 10:02:20 INFO - User [Bob] (IP: 192.168.1.102) initiated checkout
+
+2023-10-12 10:05:45 INFO - User [Charlie] (IP: 192.168.1.103) purchased product [Smartwatch: Model Z]
+
+2023-10-12 10:10:30 INFO - User [Alice] (IP: 192.168.1.101) added product [Headphones: Model Y] to the cart
+
+2023-10-12 10:12:50 INFO - User [Bob] (IP: 192.168.1.102) purchased product [Laptop: Model A]
+
+2023-10-12 10:15:15 INFO - User [Charlie] (IP: 192.168.1.103) added product [Smartwatch: Model Z] to the cart
+
+2023-10-12 10:20:05 INFO - User [Alice] (IP: 192.168.1.101) initiated checkout
+
+2023-10-12 10:22:30 INFO - User [Bob] (IP: 192.168.1.102) added product [Tablet: Model B] to the cart
+
+2023-10-12 10:25:55 INFO - User [Charlie] (IP: 192.168.1.103) initiated checkout
+
+2023-10-12 10:30:45 INFO - User [Alice] (IP: 192.168.1.101) purchased product [Headphones: Model Y]
+
+2023-10-12 10:32:20 INFO - User [Bob] (IP: 192.168.1.102) purchased product [Tablet: Model B]
+
+2023-10-12 10:35:45 INFO - User [Charlie] (IP: 192.168.1.103) purchased product [Smartwatch: Model Z]

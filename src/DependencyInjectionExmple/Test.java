@@ -1,4 +1,4 @@
-package DependencyInjection;
+package DependencyInjectionExmple;
 
 
 //dependency is not hard coded but it is injected by an entity outside the class.

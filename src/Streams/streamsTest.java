@@ -7,6 +7,7 @@ public class streamsTest {
 
         List<Integer> arr1 = List.of(1,2,4,5,6,7,8);
 
+
         System.out.println("Printing only even no using streams");
         arr1.stream().filter(i -> i%2 == 0).forEach(i -> System.out.println(i));
 

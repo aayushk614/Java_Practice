@@ -48,23 +48,44 @@ interface B{
     public void run1();
 }
 
-public class Demo {
+
+interface Apple{
+
+    int a = 10;
+    public void check();
+
+
+
+}
+public class Demo implements Apple{
+
+    int a=19;
+
+    public void check(){
+        System.out.println("hello");
+    }
 
     public static void main(String[] args) {
+
+        Demo obj = new Demo();
+        obj.check();
+        System.out.println(obj.a);
+
+
 
 
 //        Interfaces.A obj = new Interfaces.Demo();
 //        obj.run1();
 //        obj.g();
 
-        B obj = () -> {
-            {
-                System.out.println("Lambda implemented");
-            }
-
-        };
-
-        obj.run1();
+//        B obj = () -> {
+//            {
+//                System.out.println("Lambda implemented");
+//            }
+//
+//        };
+//
+//        obj.run1();
 
 
 
