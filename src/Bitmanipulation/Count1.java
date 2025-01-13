@@ -1,21 +1,23 @@
 package Bitmanipulation;
 
+/**
+ * This class counts the number of 1 bits in a given integer.
+ */
 public class Count1 {
 
     public static void main(String[] args) {
-        int i = 85;
-        int n = i;
-        int last = 0;
-        int c = 0;
+        int number = 85;
+        int originalNumber = number;
+        int lastBit = 0;
+        int count = 0;
 
-        while(i != 0){
-
-            last = i&1;
-            if(last == 1) c++;
-
-            i = i>>1;
+        // Iterate through each bit of the number
+        while (number != 0) {
+            lastBit = number & 1;
+            if (lastBit == 1) count++;
+            number = number >> 1;
         }
 
-        System.out.println("The number of 1 bits in " + n + " is = " + c);
+        System.out.println("The number of 1 bits in " + originalNumber + " is = " + count);
     }
 }
