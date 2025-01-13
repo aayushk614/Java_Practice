@@ -1,24 +1,17 @@
 package DependencyInjectionExmple;
 
-
-//dependency is not hard coded but it is injected by an entity outside the class.
+/**
+ * This class demonstrates dependency injection using a class member variable.
+ */
 public class Test {
     public static void main(String[] args) {
 
-        Triangle triangle  = new Triangle();
+        // Create a Triangle object
+        Triangle triangle = new Triangle();
 
-        ClassMemberVariable obj = new ClassMemberVariable();
-        obj.setShape(triangle);
-        obj.drawShape();
-
-
-
-
-
-
-
-
-
-
+        // Create a ClassMemberVariable object and set the shape to triangle
+        ClassMemberVariable classMemberVariable = new ClassMemberVariable();
+        classMemberVariable.setShape(triangle);
+        classMemberVariable.drawShape();
     }
 }

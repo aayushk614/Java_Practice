@@ -1,4 +1,8 @@
 package DesignPatterns.Decorator;
 
-public abstract class Toppings extends BasePizza{
+/**
+ * Abstract class representing a pizza topping.
+ * This class should be extended by specific types of toppings.
+ */
+public abstract class Toppings extends BasePizza {
 }

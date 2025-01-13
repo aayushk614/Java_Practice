@@ -1,50 +1,82 @@
 package ComparatorExample;
 
-public class Student implements Comparable<Student>{
+/**
+ * The Student class represents a student with an id and name.
+ * It implements the Comparable interface to allow comparison based on the student's id.
+ */
+public class Student implements Comparable<Student> {
 
-    int id;
-    String name;
+    private int studentId;
+    private String studentName;
 
-    public Student(int id, String name) {
-        this.id = id;
-        this.name = name;
+    /**
+     * Constructs a new Student with the specified id and name.
+     *
+     * @param studentId   The id of the student.
+     * @param studentName The name of the student.
+     */
+    public Student(int studentId, String studentName) {
+        this.studentId = studentId;
+        this.studentName = studentName;
     }
 
-
-    public int getId() {
-        return id;
+    /**
+     * Returns the id of the student.
+     *
+     * @return The id of the student.
+     */
+    public int getStudentId() {
+        return studentId;
     }
 
-    public void setId(int id) {
-        this.id = id;
+    /**
+     * Sets the id of the student.
+     *
+     * @param studentId The id to set.
+     */
+    public void setStudentId(int studentId) {
+        this.studentId = studentId;
     }
 
-    public String getName() {
-        return name;
+    /**
+     * Returns the name of the student.
+     *
+     * @return The name of the student.
+     */
+    public String getStudentName() {
+        return studentName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    /**
+     * Sets the name of the student.
+     *
+     * @param studentName The name to set.
+     */
+    public void setStudentName(String studentName) {
+        this.studentName = studentName;
     }
 
+    /**
+     * Returns a string representation of the student.
+     *
+     * @return A string representation of the student.
+     */
     @Override
     public String toString() {
         return "Student{" +
-                "id=" + id +
-                ", name='" + name + '\'' +
+                "studentId=" + studentId +
+                ", studentName='" + studentName + '\'' +
                 '}';
     }
 
-
+    /**
+     * Compares this student to another student based on their id.
+     *
+     * @param otherStudent The student to compare to.
+     * @return A negative integer, zero, or a positive integer as this student's id is less than, equal to, or greater than the other student's id.
+     */
     @Override
-    public int compareTo(Student o) {
-
-        if(this.id == o.id)
-            return 0;
-        else if(this.id > o.id)
-                return 1;
-        else
-            return -1;
-
+    public int compareTo(Student otherStudent) {
+        return Integer.compare(this.studentId, otherStudent.studentId);
     }
 }

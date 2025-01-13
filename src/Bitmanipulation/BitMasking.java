@@ -1,21 +1,22 @@
 package Bitmanipulation;
 
+/**
+ * This class demonstrates bit masking operations.
+ */
 public class BitMasking {
 
     public static void main(String[] args) {
-        int n = 17;
+        int number = 17;
         int bitmask = 1;
-        int last = 0;
+        int lastBit = 0;
 
-        for(int i = 1;i<=32;i++){
-
-            last = n&bitmask;
-            if(last !=0)
-            System.out.println(last);
+        // Iterate through each bit position
+        for (int i = 1; i <= 32; i++) {
+            lastBit = number & bitmask;
+            if (lastBit != 0) {
+                System.out.println(lastBit);
+            }
             bitmask <<= 1;
-
         }
-
-
     }
 }
